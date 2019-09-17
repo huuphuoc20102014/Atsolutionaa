@@ -483,12 +483,12 @@ header.top-head {
 	background: transparent !important;
 }
 header.top-head .logo{
-	margin-top: 20px;
+	margin-top: 7px;
 }
 header.top-head .logo a {
 	display: table;
 	width: 207px;
-	height: 47px;
+	height: 68px;
 	margin: auto;
 }
 header.top-head .logo.center a{
@@ -882,7 +882,7 @@ header.top-head-4 .logo {
 	display: none;
 }
 .sticky .top-search a{
-	margin-top:5px;
+	margin-top:7px;
 	border-radius:0 !important;
 	/*width:45px;*/
 	height:45px;
@@ -931,7 +931,8 @@ header.top-head-4 .logo {
 	top:0 !important
 }
 .sticky .logo{
-	margin-top:5px !important
+	margin-top:7px !important;
+    margin-bottom:7px !important
 }
 .sticky .top-nav > ul > li.hasChildren > a:after{
 	display:none !important

@@ -1,5 +1,8 @@
-﻿<div id="headWrapper" class="clearfix">
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@inject Atsolution.Efs.Entities.WebATSolutionContext webContext
 
+<div id="headWrapper" class="clearfix">
     <!-- top bar start -->
     <div class="top-bar">
         <div class="container">
@@ -35,7 +38,7 @@
                     <nav class="top-nav mega-menu">
                         <ul>
                             <li class="selected">
-                                <a href="#"><i class="fa fa-home"></i><span>Home</span></a>
+                                <a href="#"><i class="fa fa-address-book-o"></i><span>Home</span></a>
                                 <ul>
                                     <li><a href="home.html">Home Version 1</a></li>
                                     <li><a href="home2.html">Home Version 2</a></li>
@@ -46,7 +49,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-key"></i><span>Features</span></a>
+                                <a href="#"><i class="fa fa-key"></i><span>Featuress</span></a>
                                 <ul>
                                     <li>
                                         <a href="#"><i class="fa fa-send"></i>Headers</a>
