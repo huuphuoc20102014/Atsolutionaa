@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Atsolution.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Atsolution.Efs.Entities;
 
 namespace Atsolution
 {
@@ -37,12 +38,17 @@ namespace Atsolution
 
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString("ATSOLUTION_Context")));
+
             services.AddDefaultIdentity<IdentityUser>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddDbContext<WebATSolutionContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("ATSOLUTION_Context")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
