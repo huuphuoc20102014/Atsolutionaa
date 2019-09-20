@@ -9,6 +9,7 @@ namespace Atsolution.Efs.Entities
         {
             ProductComment = new HashSet<ProductComment>();
             ProductImage = new HashSet<ProductImage>();
+            ProductVersion = new HashSet<ProductVersion>();
         }
 
         public string Id { get; set; }
@@ -20,12 +21,14 @@ namespace Atsolution.Efs.Entities
         public string SpecificationHtml { get; set; }
         public string ShortDescriptionHtml { get; set; }
         public string LongDescriptionHtml { get; set; }
+        public int? StyleShow { get; set; }
         public string Sku { get; set; }
         public string Color { get; set; }
         public string Size { get; set; }
         public string Material { get; set; }
         public string Style { get; set; }
         public double? Price { get; set; }
+        public double? PriceNew { get; set; }
         public string Ccy { get; set; }
         public string Country { get; set; }
         public string Producer { get; set; }
@@ -46,9 +49,12 @@ namespace Atsolution.Efs.Entities
         public int RowStatus { get; set; }
         public int CountComment { get; set; }
         public int CountReply { get; set; }
+        public string FkInventoryItem { get; set; }
 
+        public virtual InventoryItem FkInventoryItemNavigation { get; set; }
         public virtual Category FkProduct { get; set; }
         public virtual ICollection<ProductComment> ProductComment { get; set; }
         public virtual ICollection<ProductImage> ProductImage { get; set; }
+        public virtual ICollection<ProductVersion> ProductVersion { get; set; }
     }
 }

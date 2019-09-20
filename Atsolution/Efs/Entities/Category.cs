@@ -31,6 +31,8 @@ namespace Atsolution.Efs.Entities
         public int RowStatus { get; set; }
         public int CountChild { get; set; }
         public int CountProduct { get; set; }
+        public string Icon { get; set; }
+        public string Image { get; set; }
 
         public virtual Category FkCategory { get; set; }
         public virtual ICollection<Category> InverseFkCategory { get; set; }

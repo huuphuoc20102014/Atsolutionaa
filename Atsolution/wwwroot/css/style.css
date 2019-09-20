@@ -5909,7 +5909,8 @@ a.wit-btn {
 
 /******* Footer NewsLetters *******/
 .foot-logo {
-	height: 40px;
+	height: 70px;
+    width: 105px;
 	margin: 0 auto 5px;
 	text-align: center;
 }

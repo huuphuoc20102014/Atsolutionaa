@@ -25,5 +25,7 @@ namespace Atsolution.Efs.Entities
         public DateTime? UpdatedDate { get; set; }
         public byte[] RowVersion { get; set; }
         public int RowStatus { get; set; }
+        public int? Type { get; set; }
+        public int? Position { get; set; }
     }
 }
