@@ -40,7 +40,6 @@ C:\Users\Administrator\Desktop\atsolution\Atsolution\Atsolution\bin\Debug\netcor
 C:\Users\Administrator\Desktop\atsolution\Atsolution\Atsolution\bin\Debug\netcoreapp2.2\Atsolution.pdb
 C:\Users\Administrator\Desktop\atsolution\Atsolution\Atsolution\bin\Debug\netcoreapp2.2\Atsolution.Views.dll
 C:\Users\Administrator\Desktop\atsolution\Atsolution\Atsolution\bin\Debug\netcoreapp2.2\Atsolution.Views.pdb
-C:\Users\Administrator\Desktop\atsolution\Atsolution\Atsolution\obj\Debug\netcoreapp2.2\Atsolution.csprojAssemblyReference.cache
 C:\Users\Administrator\Desktop\atsolution\Atsolution\Atsolution\obj\Debug\netcoreapp2.2\Atsolution.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\atsolution\Atsolution\Atsolution\obj\Debug\netcoreapp2.2\Atsolution.RazorAssemblyInfo.cache
 C:\Users\Administrator\Desktop\atsolution\Atsolution\Atsolution\obj\Debug\netcoreapp2.2\Atsolution.RazorAssemblyInfo.cs
@@ -104,3 +103,4 @@ E:\ATSOLUTION\Atsolution\Atsolution\obj\Debug\netcoreapp2.2\Atsolution.Views.pdb
 E:\ATSOLUTION\Atsolution\Atsolution\obj\Debug\netcoreapp2.2\Atsolution.dll
 E:\ATSOLUTION\Atsolution\Atsolution\obj\Debug\netcoreapp2.2\Atsolution.pdb
 E:\ATSOLUTION\Atsolution\Atsolution\obj\Debug\netcoreapp2.2\Atsolution.csproj.CopyComplete
+C:\Users\Administrator\Desktop\atsolution\Atsolution\Atsolution\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_MenuPartial.g.cshtml.cs
